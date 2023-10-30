@@ -13,6 +13,6 @@ button.btn {
     height: 25px;
 }
 
-div.navigation {
-
+.pizza-row {
+    width: 100%;
 }
