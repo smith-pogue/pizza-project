@@ -13,6 +13,21 @@ button.btn {
     height: 25px;
 }
 
-.pizza-row {
-    width: 100%;
+.build-pizza {
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    padding-top: 40px;
+}
+
+.container.hero {
+    min-height: 220px;
+    background-image: url("../images/pizza.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container.hero h1 {
+    background-color: rgba(255,255,255,0.5);
 }
