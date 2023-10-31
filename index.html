@@ -4,35 +4,32 @@
     <meta charset="UTF-8">
     <title>Pizza Project</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
 </head>
 <body>
 <div class="page-wrapper">
     <header class="container">
         <div class="navigation row">
             <div class="col d-flex">
-                <nav class="navbar bg-body-tertiary">
+                <nav class="navbar bg-body-tertiary red-ease">
                     <div class="container-fluid" style="background-color: #fff;">
-                        <a class="navbar-brand" href="#">
-                            <img src="./images/mario_navbar.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                        <a class="navbar-brand slide-left fs-3" href="#">
+                            <img src="./images/mario_navbar.png" alt="Logo" width="36" height="30" class="d-inline-block align-text-middle">
                             Mario's Pizza
                         </a>
                     </div>
                 </nav>
                 <nav class="navbar navbar-expand-lg flex-grow-1" style="background-color: #fff;">
                     <div class="navigation container-fluid">
-                        <a class="navbar-brand" href="#">Pizza World</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Order Online</a>
+                                    <a class="fs-5 nav-link active p-2 menu-icon" aria-current="page" href="#">Order Online</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Menu</a>
+                                    <a class="nav-link text-black fs-5 p-2 menu-icon" href="#">Menu</a>
                                 </li>
-                                <li>
+                                <li class="d-flex align-items-center">
                                     <form class="d-flex">
                                         <input class="form-control me-2" type="search" placeholder="Zip Code" aria-label="Search">
                                         <button class="btn btn-outline-success text-nowrap" type="submit">Search stores near you!</button>
@@ -43,9 +40,9 @@
                         </div>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="d-flex align-items-center">
-                                <a class="d-flex gap-1 align-items-center" href="#">
-                                    <img class="person-icon" src="https://t4.ftcdn.net/jpg/00/65/77/27/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg" alt="person icon">
-                                    <span>Sign Up!</span>
+                                <a class="d-flex gap-1 align-items-center text-decoration-none text-black" href="#">
+                                    <img class="mushroom-icon" src="./images/mushroom.ico" alt="person icon">
+                                    <span>Sign Up</span>
                                 </a>
                             </li>
                         </ul>
@@ -54,10 +51,10 @@
             </div>
         </div>
     </header>
-    <div class="container p-0 d-flex flex-column justify-content-center hero">
+    <div class="container-fluid p-0 hero animation-container">
         <div class="row">
-            <div class="col">
-                <h1 class="text-center">Welcome to pizza land!</h1>
+            <div class="col d-flex flex-grow-1">
+                <img class="hero-img walking-image" src="./images/characters.png" alt="">
             </div>
         </div>
     </div>
