@@ -96,6 +96,7 @@ nav div.container-fluid {
 }
 
 .walking-image {
+    margin-top: 5px;
     animation: walk 1s linear forwards;
 }
 
