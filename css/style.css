@@ -74,7 +74,7 @@ nav.navbar {
 
 .hero-img {
     max-height: 600px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 nav div.container-fluid {
@@ -94,23 +94,20 @@ nav div.container-fluid {
     0% {
         transform: translateX(0);
     }
+    50% {
+        transform: translateX(50vw);
+    }
     100% {
-        transform: translateX(100vw); /* Move the image across the entire screen */
+        transform: translateX(50vw);
     }
 }
 
-.animation-container {
-    position: relative; /* Make the container take up space */
-    width: 100vw; /* Set the width to fill the entire viewport width */
-    height: 200px; /* Set the height to specify the animation height */
+.walking-image {
+    animation: walk 4s linear forwards;
 }
 
-.walking-image {
-    position: absolute; /* Position the image absolutely */
-    top: 50%; /* Center vertically on the screen */
-    animation: walk 4s linear;
-    z-index: 2; /* Set a higher z-index value to make it appear in front */
-}
+
+
 
 
 
