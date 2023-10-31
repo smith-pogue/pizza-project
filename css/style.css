@@ -5,47 +5,37 @@
     --clr-retro-brown: #A58B00;
     --clr-retro-blue: #028DBF;
 }
-
 body {
     font-family: 'Karla', sans-serif;
 }
-
 .page-wrapper {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 h1 {
     font-size: 60px;
 }
-
 a.nav-link {
     border: var(--clr-retro-red) solid;
     border-radius: 60px;
     background-color: var(--clr-retro-red);
     font: #fff;
 }
-
 li.nav-item a.nav-link {
     margin-left: 20px;
 }
-
 li form.d-flex {
     margin-left: 20px;
 }
-
 a.navbar-brand {
     transition: all ease 0.3s;
 }
-
 a.navbar-brand:hover {
     color: var(--clr-retro-brown);
 }
-
 .slide-left {
     animation: slide-in-left 1s;
 }
-
 @keyframes slide-in-left {
     0% {
         opacity: 0;
@@ -56,31 +46,25 @@ a.navbar-brand:hover {
         transform: translateX(0%);
     }
 }
-
 .mushroom-icon {
     height: 25px;
 }
-
 .build-pizza {
     width: 70%;
     display: flex;
     justify-content: left;
     padding-top: 40px;
 }
-
 nav.navbar {
     padding: unset;
 }
-
 .hero-img {
     max-height: 600px;
     padding-top: 10px;
 }
-
 nav div.container-fluid {
     padding: unset;
 }
-
 .menu-icon {
     opacity: 0.85;
     transition: all ease 0.3s;
@@ -89,15 +73,16 @@ nav div.container-fluid {
     opacity: 1;
     transform: scale(1.1);
 }
-
 @keyframes walk {
     0% {
         transform: translateX(0);
     }
     50% {
+        transform: translateX(50vw);
         transform: translateX(10vw);
     }
     100% {
+        transform: translateX(50vw);
         transform: translateX(10vw);
     }
 }
@@ -105,15 +90,3 @@ nav div.container-fluid {
 .walking-image {
     animation: walk 4s linear forwards;
 }
-
-
-
-
-
-
-
-
-
-
-
-
