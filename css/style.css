@@ -35,6 +35,12 @@ a.navbar-brand {
 a.navbar-brand:hover {
     color: var(--clr-retro-brown);
 }
+
+.apply-2p {
+    font-family: 'Press start 2p', sans-serif;
+    word-spacing: -7px;
+}
+
 .slide-left {
     animation: slide-in-left 1s;
 }
