@@ -95,10 +95,10 @@ nav div.container-fluid {
         transform: translateX(0);
     }
     50% {
-        transform: translateX(50vw);
+        transform: translateX(10vw);
     }
     100% {
-        transform: translateX(50vw);
+        transform: translateX(10vw);
     }
 }
 
