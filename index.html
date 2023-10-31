@@ -32,7 +32,7 @@
                                 <li class="d-flex align-items-center">
                                     <form class="d-flex">
                                         <input class="form-control me-2" type="search" placeholder="Zip Code" aria-label="Search">
-                                        <button class="btn btn-outline-success text-nowrap" type="submit">Search stores near you!</button>
+                                        <button class="btn btn-outline-success text-nowrap" type="submit">Search stores near you</button>
                                     </form>
                                 </li>
                             </ul>
@@ -41,7 +41,7 @@
                             <li class="d-flex align-items-center">
                                 <a class="d-flex gap-1 align-items-center text-decoration-none text-black" href="#">
                                     <img class="mushroom-icon" src="./images/mushroom.ico" alt="person icon">
-                                    <span>Sign Up</span>
+                                    <span>Sign In</span>
                                 </a>
                             </li>
                         </ul>
@@ -58,7 +58,7 @@
                 <p class="hero-left-align">Sign up with your email and begin collecting stars on every purchase. Collect 10 stars and redeem a free pizza, any size, with unlimited toppings.</p>
                 <form class="d-flex hero-left-align">
                     <input class="form-control me-2" type="email" placeholder="Email" aria-label="Search">
-                    <button class="btn btn-outline-success text-nowrap" type="submit">Sign Up!</button>
+                    <button class="btn btn-outline-success text-nowrap" type="submit">Sign Up</button>
                 </form>
             </div>
             <div class="col d-flex flex-grow-1">
@@ -83,7 +83,7 @@
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                        <!-- First Card -->
+                        <!-- size card -->
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Hand-Tossed</h5>
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Second Card -->
+                        <!-- crust card -->
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Crispy Thin</h5>
@@ -122,39 +122,38 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                        <!-- First Card -->
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Cheese</h5>
-                                <div class="form-group">
-                                    <label for="cheese-amount">Select Amount:</label>
-                                    <select class="form-control" id="cheese-amount">
-                                        <option value="normal">Normal</option>
-                                        <option value="less">Less</option>
-                                        <option value="extra">Extra</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Second Card -->
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Sauce</h5>
-                                <label for="sauce-type">Select Type:</label>
-                                <select class="form-control" id="sauce-type">
-                                    <option value="marinara">Marinara</option>
-                                    <option value="spicy">Spicy Marinara</option>
-                                    <option value="alfredo">Alfredo</option>
-                                    <option value="bbq">Barbeque Sauce</option>
-                                    <option value="pesto">Pesto</option>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <!-- cheese card -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cheese</h5>
+                            <div class="form-group">
+                                <label for="cheese-amount">Select Amount:</label>
+                                <select class="form-control" id="cheese-amount">
+                                    <option value="normal">Normal</option>
+                                    <option value="less">Less</option>
+                                    <option value="extra">Extra</option>
                                 </select>
                             </div>
                         </div>
                     </div>
+                        <!-- sauce card -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sauce</h5>
+                            <label for="sauce-type">Select Type:</label>
+                            <select class="form-control" id="sauce-type">
+                                <option value="marinara">Marinara</option>
+                                <option value="spicy">Spicy Marinara</option>
+                                <option value="alfredo">Alfredo</option>
+                                <option value="bbq">Barbeque Sauce</option>
+                                <option value="pesto">Pesto</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-                    <!-- First Card -->
+                    <!-- meat card -->
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Choose Meats</h5>
@@ -184,7 +183,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Second Card -->
+                    <!-- veggie card -->
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Choose Veggies</h5>
@@ -217,17 +216,18 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col d-flex justify-content-end align-items-start">-->
-<!--                <div class="d-grid gap-2 d-md-block">-->
-<!--                    <button class="btn btn-primary" type="button">Button</button>-->
-<!--                    <button class="btn btn-primary" type="button">Button</button>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-end align-items-start">
+                <div class="d-grid gap-2 d-md-block btn-marg">
+                    <a class="btn btn-primary" data-bs-toggle="tab" href="#previous-tab">Previous</a>
+                    <a class="btn btn-primary" data-bs-toggle="tab" href="#next-tab">Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

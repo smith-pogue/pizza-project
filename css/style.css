@@ -86,11 +86,9 @@ nav div.container-fluid {
         transform: translateX(0);
     }
     50% {
-        transform: translateX(50vw);
         transform: translateX(10vw);
     }
     80% {
-        transform: translateX(50vw);
         transform: translateX(10vw);
     }
 }
@@ -111,5 +109,9 @@ nav div.container-fluid {
 .hero-left-align {
     text-align: left;
     font-family: 'Karla', sans-serif;
+}
+
+.btn-marg {
+    margin-top: 5px;
 }
 
