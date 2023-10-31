@@ -90,3 +90,7 @@ nav div.container-fluid {
 .walking-image {
     animation: walk 4s linear forwards;
 }
+
+.hero-header {
+    text-align: center;
+}
